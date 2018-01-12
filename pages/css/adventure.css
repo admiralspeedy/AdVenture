@@ -1,0 +1,151 @@
+/* Mitchell */
+.login-register-error {
+    width:100%;
+    height:20px;
+    color:#a94442;
+    margin-bottom:20px;
+    display:none;
+}
+
+.home-image {
+    width:263px;
+    height:268px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-image {
+    width:216px;
+    height:220px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.profile-ad-desc {
+    width:500px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.home-price {
+    width:108px;
+    text-align: right;
+}
+
+.home-title {
+    width:135px !important;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis
+}
+
+/* Shelby */
+.reportBtn {
+    float: right;
+}
+
+.noScroll {
+    overflow: hidden;
+}
+
+.convoContainer {
+    overflow-y: scroll;
+    height: 500px;
+}
+
+.messageBox {
+    background: white;
+    width: 100%;
+    bottom: 0%;
+}
+
+.sendBtn {
+    float: right;
+}
+
+.myConvoMessage {} .receivedConvoMessage {} .myMessageBackground {
+    background-color: rgb(44, 162, 95);
+}
+
+.receivedMessageBackground {
+    background-color: grey;
+}
+
+.messageBackground {
+    background-color: rgb(44, 162, 95);
+}
+
+.newMessageTime {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+}
+
+.readMessageTime {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 20px;
+    color: white;
+}
+
+.newMessageTitle {
+    margin: 0;
+    line-height: 1.42857143;
+    font-weight: bold;
+    color: white;
+}
+
+.readMessageTitle {
+    margin: 0;
+    line-height: 1.42857143;
+    color: white;
+}
+
+.newMessage {
+    position: relative;
+    padding: 15px;
+    font-weight: bold;
+    color: white;
+}
+
+.readMessage {
+    position: relative;
+    padding: 15px;
+    color: white;
+}
+
+.priceLabel {
+    color: #26bbad;
+    font-size: 25px;
+}
+
+.adDescriptionView {
+    height: 80px;
+    overflow-y: scroll;
+}
+
+.errorLabel {
+    color: red;
+}
+
+.extraLargeBtn {
+    border: none;
+    background-color: rgb(38, 187, 173);
+    height: 100px;
+    width: 200px;
+    font-size: 30px;
+    color: white;
+}
+
+.extraLargeBtn:hover {
+    background-color: black;
+}
+
+.adType {
+    text-align: center;
+}

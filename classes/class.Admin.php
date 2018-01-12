@@ -26,7 +26,6 @@ class Admin extends RegUser
                     }
                     else
                     {
-                        echo "Test";
                         $this->getUserBy('id', $_SESSION['id']); //Get the user's info
                         $name1 = $this->data['username']; //Store the user's name
                         $this->getUserBy('id', $adRow['userid']); //Get the specified user's info
